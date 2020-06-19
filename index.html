@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dive Shop</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="memo">
+
+	<header>
+		<div class="header">
+			<div class="a ab1"><input type="button" name="Menu" value="Menu" id="menubutton"></div>
+			<div class="a ab2"><div id="logo">DIVESHOP</div></div>
+			<div class="a ab3"><input type="button" name="Serch" value="Serch" id="serch"></div>
+		</div>
+	</header>
+
+	<div class="a1 a1-1" id="c1">Continue shopping</div>
+
+	<div class="a1 a1-1">YOUR BAG-1 item</div>
+
+		<!--product details section starts  -->
+
+	<div class="a1 a1-1" id="order">
+		<div id="img">
+			<img class="primg" src="http://www.pngall.com/wp-content/uploads/2/Rolex-Watch-PNG-Clipart.png">
+		</div>
+		<div class="Ordr-des">
+			<div class="Ordr-des-1">
+				<p id="p-dtl">
+					<p><a id="pd1">Product code: 550055xxxxx</a><br/>
+					<b id="pname">Suunto D4i Novo</b><br/>Sun
+					<p>An easy to use dive computer with freedive mode and air integration</p>
+					<p>One Size</p>
+					<p id="price"><b>&#36;825.00</b></p>
+				</p>
+			</div>
+			<div class="Ordr-des-2">
+				<div class="Quantity btn">
+				  	<label for="Quantity">Quantity:</label>
+				  	<select name="Quantity" id="Quantity">
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
+				    <option value="6">6</option>
+				    <option value="7">7</option>
+				    <option value="8">8</option>
+			  		</select>
+		  		</div>
+		  		<div class="remove btn">
+		  			<input type="button" name="Remove" value="Remove" class="remove-btn">
+		  		</div>
+		  	</div>
+
+		</div>
+			
+	</div>
+
+	<!--product details section end  -->
+
+	<!--footer section starts  -->
+
+	<div class="div-footer a1-1">
+
+		<div class="tt">
+			<div class="st1">Subtotal:</div>
+			<div class="st2">&#36;825.00</div>
+		</div>
+
+		<div class="tt">
+			<div class="ds1">Delivery (Standard - 2 working days):<br><small id="s1">Change delivery method</small></div>
+			<div class="ds2">Free</div>
+		</div>
+
+		<div class="tt" id="tt">
+			<div class="tt1"><b>Total:</b></div>
+			<div class="tt2"><b>&#36;825.00</b></div>
+		</div>
+
+		<div>
+			<input type="checkbox" name="promo-code" value="mark">
+			<label for="promo-code">I have a promo code</label>
+		</div>		
+
+		<div class="pc-form tt">
+			<form action="/action_page.php">
+				<input type="text" id="promo-code" name="promo-code" placeholder="Enter your promo code here">
+				<input type="submit" value="APPLY" id="apply">
+
+			</form>
+		</div>
+		<div class="checkout">
+			<button class="checkout-btn"><i class="fa fa-lock"></i>    GO TO CHECKOUT</button>
+		</div>
+
+		<div id="l-sec">Need help? Call free 01234567890</div>
+
+
+	</div>
+
+	<!--footer section end  -->
+
+
+</div>
+</body>
+</html>
